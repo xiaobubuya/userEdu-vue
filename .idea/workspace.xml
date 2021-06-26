@@ -1,7 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c85a722c-2fb2-4cb4-a713-44c918710601" name="Default Changelist" comment="" />
+    <list default="true" id="c85a722c-2fb2-4cb4-a713-44c918710601" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sign.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/web.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/HF-BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatar-boy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/black-bg-hf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/black-mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/black-name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/c-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/d-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/default-img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/default-img_old.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/default-tea-img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/kyb-tip-all-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/kyb-tip-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/kyb-tip-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/loding.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/banner-1-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/banner-1-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/banner-2-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/banner-2-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/c-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/one-master.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/t-p-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/three-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pic/two-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qq-icon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qq-icon-hover-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qq-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/s-next-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/s-prev-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tipQe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/up-hf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/v-loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/v-play-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wb-icon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wb-icon-hover-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wb-icon-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wb-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wb2-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wx-icon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wx-icon-hover-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wx-icon-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wx-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/wx2-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/zan-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/aliplayer-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery-1.7.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/swiper-2.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/banner/1525939573202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/banner/153525d0ef15459596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295379715.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295455437.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295472860.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295506745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295527931.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295556203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295570359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295581911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295592705.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442295604295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442302831779.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/course/1442302852837.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297885942.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297919077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297927029.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297935589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297957332.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297969808.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297977255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297987091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442297999141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photo/teacher/1442298121626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +127,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1uFYDAfM6fTpitAccsK6DOzwy0B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,6 +163,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SpringCloud\userEdu-vue\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,25 +182,52 @@
       <workItem from="1624407446210" duration="12802000" />
       <workItem from="1624444385067" duration="1711000" />
       <workItem from="1624450883686" duration="14447000" />
+      <workItem from="1624580701096" duration="17875000" />
+      <workItem from="1624667617661" duration="4839000" />
+      <workItem from="1624676447627" duration="6070000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="823" y="410" key="#ESLint" timestamp="1624530104073">
+    <state x="823" y="410" key="#ESLint" timestamp="1624667881638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="410" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1624530104073" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1624497551965">
+    <state x="823" y="410" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1624667881638" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1624598905103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624497551965" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624450987692">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624598905103" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1624581922221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624450987692" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624581922221" />
+    <state x="699" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1624598758858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="253" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624598758858" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1624598905103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624598905103" />
+    <state x="27" y="107" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624677246553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="27" y="107" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624677246553" />
     <state x="661" y="252" width="598" height="536" key="find.popup" timestamp="1624503439344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
