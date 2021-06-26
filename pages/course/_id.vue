@@ -43,13 +43,16 @@
                 <a class="c-fff vam" title="收藏" href="#" >收藏</a>
               </span>
             </section>
-            <section class="c-attr-mt">
-              <a href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
+            <section v-if="isbuyCourse || Number(course.price)===0" class="c-attr-mt">
+              <a title="立即观看" class="comm-btn c-btn-3" >立即观看</a>
+            </section>
+            <section v-else class="c-attr-mt">
+              <a title="立即购买" class="comm-btn c-btn-3" @click="createOrder()">立即购买</a>
             </section>
           </section>
         </aside>
         <aside class="thr-attr-box">
-          <ol class="thr-attr-ol clearfix">
+          <ol class="thr-attr-ol">
             <li>
               <p>&nbsp;</p>
               <aside>
@@ -122,7 +125,7 @@
                             <ol class="lh-menu-ol" style="display: block;">
                               <li v-for="video in chapter.children" :key="video.id" class="lh-menu-second ml30">
                                 <a :href="'/player/'+ video.videoSourceId" title>
-                                  <span v-if="video.free === true" class="fr">
+                                  <span :v-if="video.free === true" class="fr">
                                     <i class="free-icon vam mr10">免费试听</i>
                                   </span>
                                   <em class="lh-menu-i-2 icon16 mr5">&nbsp;</em>{{ video.title }}
@@ -136,6 +139,91 @@
                   </section>
                 </div>
                 <!-- /课程大纲 结束 -->
+
+                <div class="mt50 commentHtml"><div>
+                  <h6 id="i-art-comment" class="c-c-content c-infor-title">
+                    <span class="commentTitle">课程评论</span>
+                  </h6>
+                  <section class="lh-bj-list pr mt20 replyhtml">
+                    <ul>
+                      <li class="unBr">
+                        <aside class="noter-pic">
+                          <img width="50" height="50" class="picImg" src="~/assets/img/avatar-boy.gif">
+                        </aside>
+                        <div class="of">
+                          <section class="n-reply-wrap">
+                            <fieldset>
+                              <textarea id="commentContent" v-model="comment.content" name="" placeholder="输入您要评论的文字"/>
+                            </fieldset>
+                            <p class="of mt5 tar pl10 pr10">
+                              <span class="fl "><tt class="c-red commentContentmeg" style="display: none;"/></span>
+                              <input type="button" value="回复" class="lh-reply-btn" @click="addComment()">
+                            </p>
+                          </section>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  <section class="">
+                    <section class="question-list lh-bj-list pr">
+                      <ul class="pr10">
+                        <li v-for="(comment,index) in data.items" :key="index">
+                          <aside class="noter-pic">
+                            <img :src="comment.avatar" width="50" height="50" class="picImg">
+                          </aside>
+                          <div class="of">
+                            <span class="fl">
+                              <font class="fsize12 c-blue">
+                                {{ comment.nickname }}</font>
+                            <font class="fsize12 c-999 ml5">评论：</font></span>
+                          </div>
+                          <div class="noter-txt mt5">
+                            <p>{{ comment.content }}</p>
+                          </div>
+                          <div class="of mt5">
+                            <span class="fr"><font class="fsize12 c-999 ml5">{{ comment.gmtCreate }}</font></span>
+                          </div>
+                        </li>
+
+                      </ul>
+                    </section>
+                  </section>
+
+                  <!-- 公共分页 开始 -->
+                  <div class="paging">
+                    <!-- undisable这个class是否存在，取决于数据属性hasPrevious -->
+                    <a
+                      :class="{undisable: !data.hasPrevious}"
+                      href="#"
+                      title="首页"
+                      @click.prevent="gotoPage(1)">首</a>
+                    <a
+                      :class="{undisable: !data.hasPrevious}"
+                      href="#"
+                      title="前一页"
+                      @click.prevent="gotoPage(data.current-1)">&lt;</a>
+                    <a
+                      v-for="page in data.pages"
+                      :key="page"
+                      :class="{current: data.current == page, undisable: data.current == page}"
+                      :title="'第'+page+'页'"
+                      href="#"
+                      @click.prevent="gotoPage(page)">{{ page }}</a>
+                    <a
+                      :class="{undisable: !data.hasNext}"
+                      href="#"
+                      title="后一页"
+                      @click.prevent="gotoPage(data.current+1)">&gt;</a>
+                    <a
+                      :class="{undisable: !data.hasNext}"
+                      href="#"
+                      title="末页"
+                      @click.prevent="gotoPage(data.pages)">末</a>
+                    <div class="clear"/>
+                  </div>
+                  <!-- 公共分页 结束 -->
+                </div>
+                </div>
               </article>
             </div>
           </section>
@@ -177,15 +265,74 @@
 
 <script>
 import course from '@/api/course'
+import comment from '@/api/commonEdu'
+import order from '@/api/order'
 export default {
+
+  // 和页面异步开始的
   asyncData({ params, error }) {
-    return course.getById(params.id).then(response => {
-      console.log(response)
-      return {
-        course: response.data.data.course,
-        chapterList: response.data.data.chapterVoList
-      }
-    })
+    return { courseId: params.id }
+  },
+  data() {
+    return {
+      data: {},
+      page: 1,
+      limit: 4,
+      total: 10,
+      comment: {
+        content: '',
+        courseId: ''
+      },
+      course: {},
+      chapterList: [],
+      isbuyCourse: false
+    }
+  },
+  mounted() {
+    this.initCourseInfo()
+    this.initComment()
+  },
+  methods: {
+    // 根据课程id，调用接口方法生成订单
+    createOrder() {
+      order.createOrder(this.courseId).then(response => {
+        if (response.data.success) {
+          // 订单创建成功，跳转到订单页面
+          this.$router.push({ path: '/order/' + response.data.data.orderId })
+        }
+      })
+    },
+    // 获取课程详情
+    initCourseInfo() {
+      course.getById(this.courseId)
+        .then(response => {
+          this.course = response.data.data.course
+          this.chapterList = response.data.data.chapterVoList
+          this.isbuyCourse = response.data.data.isbuyCourse
+        })
+    },
+
+    initComment() {
+      comment.getPageList(this.page, this.limit, this.courseId).then(response => {
+        this.data = response.data.data
+      })
+    },
+    addComment() {
+      this.comment.courseId = this.courseId
+      this.comment.teacherId = this.course.teacherId
+      comment.addComment(this.comment).then(response => {
+        if (response.data.success) {
+          this.comment.content = ''
+          this.initComment()
+        }
+      })
+    },
+    gotoPage(page) {
+      comment.getPageList(page, this.limit, this.courseId).then(response => {
+        this.data = response.data.data
+      })
+    }
   }
+
 }
 </script>
