@@ -7,7 +7,7 @@ import cookie from 'js-cookie'
 const service = axios.create({
   // baseURL: 'http://qy.free.idcfengye.com/api', // api 的 base_url
   // baseURL: 'http://localhost:8210', // api 的 base_url
-  baseURL: 'http://localhost:9001',
+  baseURL: 'http://localhost:8222',
   timeout: 15000 // 请求超时时间
 
 })
