@@ -90,7 +90,10 @@
       <workItem from="1624676447627" duration="6070000" />
       <workItem from="1624699236484" duration="133000" />
       <workItem from="1624839458910" duration="1040000" />
-      <workItem from="1624869878115" duration="431000" />
+      <workItem from="1624869878115" duration="541000" />
+      <workItem from="1624881401483" duration="16000" />
+      <workItem from="1625020451412" duration="771000" />
+      <workItem from="1625038844361" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="6-26">
       <created>1624699285317</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624869947654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="6-28 网关">
+      <created>1624870390845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624870390845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,10 +159,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624581922221" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1624699316333">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1624870399096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624699316333" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624870399096" />
     <state x="699" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1624598758858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
